@@ -1,0 +1,21 @@
+-e "*\n!*/\n!*.ipynb\n!*.py"
+
+# Ignore everything
+*
+
+# Don't ignore directories (needed so git sees structure)
+!*/
+
+# Allow only Python and Jupyter files
+!*.py
+!*.ipynb
+
+# Explicitly ignore these folders
+.venv/
+__pycache__/
+data/
+.ipynb_checkpoints
+
+# Optional: ignore hidden files like system files
+.DS_Store
+Thumbs.db
