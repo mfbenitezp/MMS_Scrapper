@@ -75,7 +75,7 @@ def run_summary_scraper():
     'SD5811', 'SD5813', 'SD5812']
     
     
-    base_url = "https://mms.st-andrews.ac.uk/mms/module/2024_5/S2/{}/Final+grade/" URL for 2025-2 semestre (current year)
+    base_url = "https://mms.st-andrews.ac.uk/mms/module/2024_5/S2/{}/Final+grade/" #URL for 2025-2 semestre (current year)
     #base_url = "https://mms.st-andrews.ac.uk/mms/module/2023_4/S2/{}/Final+grade/" #URL for 2023-4 (previous year)
     
     summary_data = [["Module", "Count", "Mean", "Std. Dev."]]
