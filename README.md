@@ -10,4 +10,4 @@ These are a set of Python scripts to scrape several charts and data from MMS for
 4. The main script is `ModuleGradesChartsExtractor.py`; the other scripts that describe parts of the process, but I kept them just for testing and adapting in the future.
 5. Now the code in here just allows you to install the requirements in an independent Python environment. Once that is done, you can just open a terminal and run: python ModuleGradesChartsExtractor.py or python  module_charts_downloader.py
 
-# pip install requests beautifulsoup4 plotly kaleido selenium webdriver-manager openpyxl pillow
+`# pip install requests beautifulsoup4 plotly kaleido selenium webdriver-manager openpyxl pillow`
